@@ -1,5 +1,5 @@
-import React, { useState, useRef } from 'react';
-import { Canvas, useFrame } from '@react-three/fiber';
+import React, { useState } from 'react';
+import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Stars } from '@react-three/drei';
 import { Physics, useBox, usePlane } from '@react-three/cannon';
 import { BoxesArray } from './BoxesArray';
